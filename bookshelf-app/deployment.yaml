@@ -1,0 +1,39 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: bookshelf-app
+  namespace: bookshelf
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: bookshelf-web
+  template:
+    metadata:
+      labels:
+        app: bookshelf-app
+    spec:
+      containers:
+        - name: bookshelf
+          image: 792604422456.dkr.ecr.eu-north-1.amazonaws.com/bookshelf-app:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 3000
+          envFrom:
+            - configMapRef:
+                name: bookshelf-config
+            - secretRef:
+                name: postgres-credentials
+          readinessProbe:
+            httpGet:
+              path: /ready
+              port: 3000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "250m"
+              memory: "256Mi"
