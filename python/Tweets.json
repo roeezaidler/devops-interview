@@ -1,0 +1,654 @@
+{
+    "tweets": [
+      {
+        "username": "JohnDoe",
+        "tweets": [
+          {
+            "content": "Excited for the weekend!",
+            "date": "2022-06-10",
+            "likes": 20
+          },
+          {
+            "content": "Just got back from a great vacation!",
+            "date": "2022-08-15",
+            "likes": 43
+          },
+          {
+            "content": "Can't wait for the new Star Wars movie!",
+            "date": "2022-12-20",
+            "likes": 72
+          },
+          {
+            "content": "Happy New Year everyone!",
+            "date": "2023-01-01",
+            "likes": 98
+          },
+          {
+            "content": "I love spending time with my family!",
+            "date": "2023-02-14",
+            "likes": 54
+          },
+          {
+            "content": "Just finished a great workout!",
+            "date": "2023-03-01",
+            "likes": 31
+          },
+          {
+            "content": "Excited to start a new project at work!",
+            "date": "2023-04-10",
+            "likes": 16
+          },
+          {
+            "content": "Can't believe it's already May!",
+            "date": "2023-05-01",
+            "likes": 87
+          },
+          {
+            "content": "So happy to be spending time with friends again!",
+            "date": "2023-06-15",
+            "likes": 62
+          },
+          {
+            "content": "Just tried a new restaurant and it was amazing!",
+            "date": "2023-07-20",
+            "likes": 29
+          },
+          {
+            "content": "Excited to attend a concert next week!",
+            "date": "2023-08-05",
+            "likes": 73
+          },
+          {
+            "content": "Can't wait for the new season of my favorite show!",
+            "date": "2023-09-10",
+            "likes": 51
+          },
+          {
+            "content": "Just finished reading an amazing book!",
+            "date": "2023-10-01",
+            "likes": 42
+          },
+          {
+            "content": "Spending the weekend hiking in the mountains!",
+            "date": "2023-11-12",
+            "likes": 28
+          },
+          {
+            "content": "Looking forward to spending time with family during the holidays!",
+            "date": "2023-12-20",
+            "likes": 67
+          }
+        ]
+      },
+      {
+        "username": "JaneDoe",
+        "tweets": [
+          {
+            "content": "So happy to have completed my first marathon!",
+            "date": "2022-07-05",
+            "likes": 67
+          },
+          {
+            "content": "Can't wait to travel to Europe next year!",
+            "date": "2022-09-15",
+            "likes": 29
+          },
+          {
+            "content": "Just adopted a new pet and I'm in love!",
+            "date": "2022-11-01",
+            "likes": 49
+          }
+        ]
+      },
+      {
+        "username": "JaneSmith",
+        "tweets": [
+          {
+            "content": "Just had the best cup of coffee ever!",
+            "date": "2022-05-10",
+            "likes": 31
+          },
+          {
+            "content": "Excited for the long weekend!",
+            "date": "2022-06-30",
+            "likes": 53
+          },
+          {
+            "content": "Had an amazing dinner at a new restaurant last night!",
+            "date": "2022-07-15",
+            "likes": 87
+          },
+          {
+            "content": "Loving this warm weather!",
+            "date": "2022-08-05",
+            "likes": 24
+          },
+          {
+            "content": "Just finished reading a great book!",
+            "date": "2022-09-01",
+            "likes": 42
+          },
+          {
+            "content": "So happy to be spending time with friends again!",
+            "date": "2022-10-10",
+            "likes": 62
+          },
+          {
+            "content": "Just got back from an amazing vacation!",
+            "date": "2022-11-15",
+            "likes": 49
+          },
+          {
+            "content": "Can't wait for the holidays!",
+            "date": "2022-12-01",
+            "likes": 15
+          },
+          {
+            "content": "Spent the weekend hiking and it was beautiful!",
+            "date": "2023-01-15",
+            "likes": 73
+          },
+          {
+            "content": "Excited to try out a new recipe tonight!",
+            "date": "2023-02-20",
+            "likes": 28
+          },
+          {
+            "content": "Just watched an amazing movie!",
+            "date": "2023-03-10",
+            "likes": 41
+          },
+          {
+            "content": "So happy to be back at the gym!",
+            "date": "2023-04-01",
+            "likes": 36
+          },
+          {
+            "content": "Just finished a great workout!",
+            "date": "2023-05-10",
+            "likes": 22
+          },
+          {
+            "content": "Can't believe it's already June!",
+            "date": "2023-06-01",
+            "likes": 49
+          },
+          {
+            "content": "Looking forward to spending time with family during the holidays!",
+            "date": "2023-07-20",
+            "likes": 63
+          },
+          {
+            "content": "Just started a new job and I'm loving it!",
+            "date": "2023-08-15",
+            "likes": 92
+          },
+          {
+            "content": "Can't wait for the weekend!",
+            "date": "2023-09-01",
+            "likes": 15
+          },
+          {
+            "content": "Excited to start a new project at work!",
+            "date": "2023-10-10",
+            "likes": 47
+          },
+          {
+            "content": "Just tried a new restaurant and it was amazing!",
+            "date": "2023-11-20",
+            "likes": 83
+          },
+          {
+            "content": "Looking forward to the new year!",
+            "date": "2023-12-31",
+            "likes": 29
+          }
+        ]
+      },
+      {
+        "username": "AnimalLover123",
+        "tweets": [
+          {
+            "content": "Just saw the cutest puppy at the park today!",
+            "date": "2022-01-01",
+            "likes": 25
+          },
+          {
+            "content": "My cat brought me a present today... a dead mouse",
+            "date": "2022-01-05",
+            "likes": 10
+          },
+          {
+            "content": "Visited the zoo today and saw some amazing animals!",
+            "date": "2022-01-10",
+            "likes": 50
+          },
+          {
+            "content": "I can't believe how intelligent dolphins are!",
+            "date": "2022-01-12",
+            "likes": 15
+          },
+          {
+            "content": "I just adopted a new bunny and he's already my best friend",
+            "date": "2022-01-15",
+            "likes": 30
+          }
+        ]
+      },
+      {
+        "username": "WildlifeWatcher",
+        "tweets": [
+          {
+            "content": "Spent the morning bird watching and saw some incredible species!",
+            "date": "2022-01-02",
+            "likes": 20
+          },
+          {
+            "content": "I've always had a soft spot for elephants, they are such gentle giants",
+            "date": "2022-01-06",
+            "likes": 35
+          },
+          {
+            "content": "Just learned about the importance of bee conservation, they do so much for our ecosystem!",
+            "date": "2022-01-10",
+            "likes": 40
+          },
+          {
+            "content": "I never realized how fascinating octopuses are until I watched a documentary on them",
+            "date": "2022-01-13",
+            "likes": 5
+          },
+          {
+            "content": "I can't believe how fast cheetahs can run, nature is truly incredible!",
+            "date": "2022-01-18",
+            "likes": 30
+          }
+        ]
+      },
+      {
+        "username": "PetLoverForever",
+        "tweets": [
+          {
+            "content": "My dog just learned a new trick, I'm so proud of him!",
+            "date": "2022-01-03",
+            "likes": 25
+          },
+          {
+            "content": "Cats may have a reputation for being aloof, but my kitty is the most affectionate companion I've ever had",
+            "date": "2022-01-07",
+            "likes": 15
+          },
+          {
+            "content": "Just gave my fish a new tank, he seems so much happier now!",
+            "date": "2022-01-11",
+            "likes": 10
+          },
+          {
+            "content": "I wish more people knew about the benefits of adopting senior pets, they make amazing companions!",
+            "date": "2022-01-14",
+            "likes": 20
+          },
+          {
+            "content": "I can't resist those big puppy eyes, dogs are truly man's best friend",
+            "date": "2022-01-19",
+            "likes": 30
+          }
+        ]
+      },
+      {
+        "username": "Foodie4Life",
+        "tweets": [
+          {
+            "content": "Just tried a new sushi place and it was amazing!",
+            "date": "2022-06-10",
+            "likes": 42
+          },
+          {
+            "content": "Making homemade pizza tonight, can't wait!",
+            "date": "2022-08-15",
+            "likes": 26
+          },
+          {
+            "content": "Found a great burger joint in town, highly recommend!",
+            "date": "2022-12-20",
+            "likes": 71
+          },
+          {
+            "content": "Trying out a new recipe for chicken parmesan tonight, fingers crossed!",
+            "date": "2023-01-15",
+            "likes": 38
+          },
+          {
+            "content": "Just had the best tacos of my life, I'm in love!",
+            "date": "2023-02-25",
+            "likes": 56
+          },
+          {
+            "content": "Going to a food festival this weekend, can't wait to try all the different dishes!",
+            "date": "2023-03-15",
+            "likes": 63
+          },
+          {
+            "content": "Found a new coffee shop with the best pastries, I'm in heaven!",
+            "date": "2023-04-10",
+            "likes": 19
+          },
+          {
+            "content": "Just made a delicious batch of chocolate chip cookies from scratch!",
+            "date": "2023-05-01",
+            "likes": 45
+          },
+          {
+            "content": "Can't get enough of this new ramen place, it's so good!",
+            "date": "2023-06-05",
+            "likes": 29
+          },
+          {
+            "content": "Had a fancy dinner at a Michelin-starred restaurant last night, worth every penny!",
+            "date": "2023-07-20",
+            "likes": 82
+          },
+          {
+            "content": "Trying out a new vegan recipe tonight, hoping it's just as tasty as it looks!",
+            "date": "2023-08-01",
+            "likes": 13
+          },
+          {
+            "content": "Just had the best bowl of pho ever, I'm in a food coma!",
+            "date": "2023-09-10",
+            "likes": 54
+          },
+          {
+            "content": "Making a big pot of chili for the game tonight, can't wait!",
+            "date": "2023-10-15",
+            "likes": 31
+          },
+          {
+            "content": "Tried a new Indian restaurant for lunch and it was amazing!",
+            "date": "2023-11-05",
+            "likes": 47
+          },
+          {
+            "content": "Going to a holiday cookie swap party tonight, can't wait to try all the treats!",
+            "date": "2023-12-20",
+            "likes": 76
+          }
+        ]
+      },
+      {
+        "username": "Cinephile91",
+        "tweets": [
+          {
+            "content": "Just saw the latest Marvel movie and it was incredible!",
+            "date": "2022-05-07",
+            "likes": 62
+          },
+          {
+            "content": "I finally watched 'The Godfather' and now I understand why it's a classic!",
+            "date": "2022-06-20",
+            "likes": 87
+          },
+          {
+            "content": "Excited for the upcoming 'Jurassic World' movie!",
+            "date": "2022-07-25",
+            "likes": 41
+          },
+          {
+            "content": "I love 'The Shawshank Redemption' - it's my all-time favorite movie!",
+            "date": "2022-08-12",
+            "likes": 93
+          },
+          {
+            "content": "Just watched 'La La Land' for the first time and it was amazing!",
+            "date": "2022-09-05",
+            "likes": 78
+          },
+          {
+            "content": "I can't wait for the new 'Spider-Man' movie!",
+            "date": "2022-12-10",
+            "likes": 55
+          },
+          {
+            "content": "Just watched 'The Matrix' for the first time and it blew my mind!",
+            "date": "2023-01-15",
+            "likes": 102
+          },
+          {
+            "content": "I'm a huge fan of Wes Anderson's movies - they're so quirky and unique!",
+            "date": "2023-02-28",
+            "likes": 64
+          },
+          {
+            "content": "I just saw 'Parasite' and it deserves all the awards it won - what a great movie!",
+            "date": "2023-04-02",
+            "likes": 91
+          },
+          {
+            "content": "I'm rewatching all the Harry Potter movies and it's bringing back so many memories!",
+            "date": "2023-05-10",
+            "likes": 46
+          },
+          {
+            "content": "I just watched 'The French Dispatch' and it was another great movie from Wes Anderson!",
+            "date": "2023-06-23",
+            "likes": 72
+          },
+          {
+            "content": "I'm excited to see 'Dune' when it comes out - the trailers look amazing!",
+            "date": "2023-09-01",
+            "likes": 37
+          },
+          {
+            "content": "Just watched 'The Departed' for the first time and it was a great crime movie!",
+            "date": "2023-10-20",
+            "likes": 59
+          },
+          {
+            "content": "I'm a fan of the 'Fast and Furious' movies - they're always so action-packed!",
+            "date": "2023-11-15",
+            "likes": 28
+          },
+          {
+            "content": "I just saw 'West Side Story' and it was a great adaptation of the classic musical!",
+            "date": "2023-12-22",
+            "likes": 81
+          }
+        ]
+      },
+      {
+        "username": "MusicLover88",
+        "tweets": [
+          {
+            "content": "Just discovered a new artist and I'm in love!",
+            "date": "2022-06-10",
+            "likes": 15
+          },
+          {
+            "content": "Can't stop listening to my favorite album!",
+            "date": "2022-08-15",
+            "likes": 32
+          },
+          {
+            "content": "So excited for the upcoming concert!",
+            "date": "2022-10-01",
+            "likes": 48
+          },
+          {
+            "content": "Just got back from a music festival and it was amazing!",
+            "date": "2022-12-05",
+            "likes": 73
+          },
+          {
+            "content": "Feeling so inspired by this new song!",
+            "date": "2023-01-20",
+            "likes": 25
+          },
+          {
+            "content": "Can't believe I got to meet my favorite musician today!",
+            "date": "2023-03-15",
+            "likes": 66
+          },
+          {
+            "content": "Just started learning to play an instrument and it's so much fun!",
+            "date": "2023-04-30",
+            "likes": 12
+          },
+          {
+            "content": "Excited to attend a music workshop this weekend!",
+            "date": "2023-06-10",
+            "likes": 41
+          },
+          {
+            "content": "Can't wait for the release of the new album!",
+            "date": "2023-08-01",
+            "likes": 57
+          },
+          {
+            "content": "Feeling so grateful for the power of music in my life!",
+            "date": "2023-09-25",
+            "likes": 29
+          },
+          {
+            "content": "Just discovered a new playlist that's perfect for studying!",
+            "date": "2023-11-05",
+            "likes": 18
+          },
+          {
+            "content": "Excited to attend a classical music concert tonight!",
+            "date": "2023-12-15",
+            "likes": 63
+          }
+        ]
+      },
+      {
+        "username": "TechGeek",
+        "tweets": [
+          {
+            "content": "Just built my own gaming PC, so excited to try it out!",
+            "date": "2022-05-15",
+            "likes": 46
+          },
+          {
+            "content": "Started learning Python, it's amazing how much you can do with it!",
+            "date": "2022-07-01",
+            "likes": 31
+          },
+          {
+            "content": "New MacBook Pro looks awesome, can't wait to get my hands on it!",
+            "date": "2022-10-20",
+            "likes": 62
+          },
+          {
+            "content": "Just upgraded my RAM, my computer is so much faster now!",
+            "date": "2023-01-10",
+            "likes": 28
+          },
+          {
+            "content": "Windows 11 is finally here, time to upgrade!",
+            "date": "2023-06-28",
+            "likes": 39
+          },
+          {
+            "content": "I love how technology is constantly evolving, can't wait to see what's next!",
+            "date": "2023-08-15",
+            "likes": 57
+          },
+          {
+            "content": "Started learning about AI, it's amazing how it's transforming the world!",
+            "date": "2023-09-30",
+            "likes": 24
+          },
+          {
+            "content": "Just bought a new mechanical keyboard, typing feels so much better now!",
+            "date": "2023-11-01",
+            "likes": 41
+          },
+          {
+            "content": "Excited to attend a tech conference next month!",
+            "date": "2023-12-15",
+            "likes": 18
+          }
+        ]
+      },
+      {
+        "username": "ScienceGeek101",
+        "tweets": [
+          {
+            "content": "Just read about the latest discovery in particle physics, so fascinating!",
+            "date": "2022-01-05",
+            "likes": 35
+          },
+          {
+            "content": "Learning about the intricacies of quantum mechanics, my mind is blown!",
+            "date": "2022-02-15",
+            "likes": 61
+          },
+          {
+            "content": "Attended a lecture on the latest advancements in artificial intelligence, so impressive!",
+            "date": "2022-03-20",
+            "likes": 27
+          },
+          {
+            "content": "Excited to attend a conference on neuroscience next month!",
+            "date": "2022-04-10",
+            "likes": 12
+          },
+          {
+            "content": "Just finished reading a great book on astrophysics, highly recommend!",
+            "date": "2022-05-15",
+            "likes": 43
+          },
+          {
+            "content": "The latest research on gene editing is truly groundbreaking, can't wait to see where it goes!",
+            "date": "2022-06-25",
+            "likes": 19
+          },
+          {
+            "content": "The complexity of the human brain never ceases to amaze me, so much left to learn!",
+            "date": "2022-07-05",
+            "likes": 56
+          },
+          {
+            "content": "Excited to start a new research project on nanotechnology!",
+            "date": "2022-08-15",
+            "likes": 31
+          },
+          {
+            "content": "The latest discovery in evolutionary biology sheds new light on the origins of life!",
+            "date": "2022-09-20",
+            "likes": 47
+          },
+          {
+            "content": "Just attended a talk on the latest breakthroughs in cancer research, so inspiring!",
+            "date": "2022-10-10",
+            "likes": 24
+          },
+          {
+            "content": "The latest findings in climate science are concerning, we need to take action now!",
+            "date": "2022-11-15",
+            "likes": 38
+          },
+          {
+            "content": "Excited to attend a workshop on renewable energy next week!",
+            "date": "2022-12-05",
+            "likes": 16
+          },
+          {
+            "content": "The latest research on quantum computing is truly mind-boggling, the future is here!",
+            "date": "2023-01-10",
+            "likes": 52
+          },
+          {
+            "content": "Just read about the latest advancements in 3D printing, so cool!",
+            "date": "2023-02-20",
+            "likes": 29
+          },
+          {
+            "content": "The latest research on climate change adaptation is crucial for our future!",
+            "date": "2023-03-15",
+            "likes": 42
+          }
+        ]
+      }
+    ]
+}
