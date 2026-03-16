@@ -61,13 +61,13 @@ The application should be:
 - Returning a healthy response on `/health`
 - Able to read and write books via the API
 
-To access the application from your browser, use `kubectl port-forward`:
+To access the application from your browser, use `kubectl port-forward` with `--address 0.0.0.0` so it's accessible externally:
 
 ```bash
-kubectl port-forward svc/bookshelf-app -n bookshelf 8080:80
+kubectl port-forward svc/bookshelf-app -n bookshelf 8080:80 --address 0.0.0.0
 ```
 
-Then open [http://localhost:8080](http://localhost:8080) in Chrome.
+Then open `http://<your-machine-ip>:8080` in Chrome.
 
 #### 4. Document Your Findings
 Keep notes of what you found and fixed. Be prepared to explain your troubleshooting approach and reasoning.
