@@ -77,6 +77,7 @@ Keep notes of what you found and fixed. Be prepared to explain your troubleshoot
 - Create a **CronJob** that periodically checks the app's health
 
 ### Tips
+- All issues can be solved by fixing existing manifests and cluster configuration — **no new files or resources need to be created**
 - `kubectl describe` and `kubectl logs` are your best friends
 - Check events: `kubectl get events -n bookshelf --sort-by='.lastTimestamp'`
 - Think about what order things need to work in (cluster → storage → database → app)
