@@ -1,0 +1,28 @@
+apiVersion: kyverno.io/v1
+kind: ClusterPolicy
+metadata:
+  name: require-approval-label
+spec:
+  validationFailureAction: Enforce
+  background: false
+  rules:
+    - name: check-approval-label
+      match:
+        any:
+          - resources:
+              kinds:
+                - Pod
+      exclude:
+        any:
+          - resources:
+              namespaces:
+                - kube-system
+                - kube-node-lease
+                - kube-public
+                - kyverno
+      validate:
+        message: "Pod must have the label 'interview-approved: true' to be scheduled."
+        pattern:
+          metadata:
+            labels:
+              interview-approved: "true"

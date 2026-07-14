@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: strict-limits
+  namespace: bookshelf
+spec:
+  limits:
+    - default:
+        cpu: "5m"
+        memory: "10Mi"
+      defaultRequest:
+        cpu: "5m"
+        memory: "10Mi"
+      type: Container
